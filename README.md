@@ -1,4 +1,4 @@
 DisguiseMe
 ==========
 
-Disguise yourself as mobs or blocks for PocketMine-MP test
+Disguise yourself as mobs or blocks for PocketMine-MP
