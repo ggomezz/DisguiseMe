@@ -3,9 +3,9 @@
 namespace disguiseme;
 
 
-use pocketmine\network\protocol\AddMobPacket;
-use pocketmine\network\protocol\RemovePlayerPacket;
-use pocketmine\network\protocol\SetEntityMotionPacket;
+use pocketmine\network\mcpe\protocol\AddMobPacket;
+use pocketmine\network\mcpe\protocol\RemovePlayerPacket;
+use pocketmine\network\mcpe\protocol\SetEntityMotionPacket;
 use pocketmine\Player;
 use pocketmine\Server;
 
