@@ -26,7 +26,7 @@ class DisguiseMe extends PluginBase implements Listener, CommandExecutor{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->mobStore = new MobStore($this);
     }
-    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+    public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
         if(isset($args[1])){
             if($sender->hasPermission("disguiseme.other")){
                 if(($p = $this->getServer()->getPlayer($args[1])) instanceof Player){
